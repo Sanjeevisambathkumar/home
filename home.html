@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodify - Order Food Online</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Foodify</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#signup">Signup</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Foodify!</h1>
+            <p>Order your favorite meals from top restaurants near you, delivered fresh and fast.</p>
+            <input type="text" id="search-bar" placeholder="Search restaurants or cuisines...">
+            <button onclick="searchRestaurants()">Search</button>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Why Choose Us?</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <img src="https://www.fueloyal.com/wp-content/uploads/2018/03/Top-10-Food-Delivery-Services-in-Houston.jpg" alt="Fast Delivery">
+                <h3>Fast Delivery</h3>
+                <p>Get your food delivered within minutes.</p>
+            </div>
+            <div class="feature">
+                <img src="https://th.bing.com/th/id/R.2e70d4315bb298396ab365c1fb4e1349?rik=p7GGK4j12p0blw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-3Bbwpqb5dlg%2fUmWSwRV6V4I%2fAAAAAAAAAWY%2fYxsvCwUIPmQ%2fs1600%2ffresh-fruits-vegetables-2419.jpg&ehk=Xuvo0rbQBZ3QqGy7rHoNcqyHCdcVI%2frgStqwNaPx71A%3d&risl=&pid=ImgRaw&r=0" alt="Fresh Food">
+                <h3>Fresh Food</h3>
+                <p>Only the freshest ingredients from the best restaurants.</p>
+            </div>
+            <div class="feature">
+                <img src="https://keysteps.co.za/wp-content/uploads/2018/03/636091543089770793-1160930690_choices.jpeg" alt="Wide Choice">
+                <h3>Wide Choice</h3>
+                <p>From local favorites to international cuisines.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="restaurants">
+        <h2>Top Restaurants</h2>
+        <div id="restaurant-list">
+            <!-- Restaurant 1 -->
+            <div class="restaurant">
+                <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2023/12/Tawa-Paneer-Masala-Recipe-300x300.jpg" alt="Restaurant 1">
+                <div class="restaurant-details">
+                    <h3>Restaurant 1</h3>
+                    <p>Cuisine: Italian, Pizza, Pasta</p>
+                    <p>Location: New York City, USA</p>
+                    <p>Rating: 4.5/5</p>
+                    <a href="#">Order Now</a>
+                </div>
+            </div>
+
+            <!-- Restaurant 2 -->
+            <div class="restaurant">
+                <img src="https://jeyporedukaan.in/wp-content/uploads/2022/09/Best-Mutton-Biryani-Recipe-300x300.jpg" alt="Restaurant 2">
+                <div class="restaurant-details">
+                    <h3>Restaurant 2</h3>
+                    <p>Cuisine: Chinese, Dim Sum</p>
+                    <p>Location: Los Angeles, USA</p>
+                    <p>Rating: 4.8/5</p>
+                    <a href="#">Order Now</a>
+                </div>
+            </div>
+
+            <!-- Restaurant 3 -->
+            <div class="restaurant">
+                <img src="https://www.funfoodfrolic.com/wp-content/uploads/2020/12/Chettinad-Prawn-Masala-Thumbnail-300x300.jpg" alt="Restaurant 3">
+                <div class="restaurant-details">
+                    <h3>Restaurant 3</h3>
+                    <p>Cuisine: Mexican, Tacos</p>
+                    <p>Location: Miami, USA</p>
+                    <p>Rating: 4.7/5</p>
+                    <a href="#">Order Now</a>
+                </div>
+            </div>
+    
+            </div>
+                <div class="deals-container">
+                    <h1>Today's Hot Deals</h1>
+                    <div class="deal-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2pAFCb1742YikEFq5-eFZ5VxNfUwoRKDlK0NOXVU40UOfIjkFuaqccNwAf6cQtNDnzIc&usqp=CAU" alt="Deal Image">
+                        <div class="deal-details">
+                            <h2>50% Off on All Desserts</h2>
+                            <p>Get flat 50% off on all desserts at participating restaurants. Hurry, limited time only!</p>
+                            <button>Claim Deal</button>
+                        </div>
+                    </div>
+                    <div class="deal-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0undFfMNyl3kMlsYZGZSNXU99EkP8WLHkAQ&s" alt="Deal Image">
+                        <div class="deal-details">
+                            <h2>Buy 1 Get 1 Free Pizza</h2>
+                            <p>Order your favorite pizza and get another one for free. Available on selected items.</p>
+                            <button>Claim Deal</button>
+                        </div>
+                    </div>
+                </div>
+        </body>
+<footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Foodify. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+</footer>
+     <script src="home.js"></script>
+</body>
+</html>
